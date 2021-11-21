@@ -47,7 +47,7 @@ cask 'phpstorm'
 cask 'the-unarchiver'
 cask 'zoom'
 
-# Quicklook
+# Quicklook / Preview
 cask 'qlmarkdown'
 cask 'quicklook-json'
 
