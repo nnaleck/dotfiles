@@ -15,6 +15,7 @@ alias art="php artisan"
 alias fresh="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
 alias pest="./vendor/bin/pest"
+alias pint="./vendor/bin/pint"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
