@@ -1,5 +1,5 @@
 # Shortcuts
-alias reloadshell="source $HOME/.zshrc"
+alias reloadshell="omz reload"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
@@ -7,8 +7,6 @@ alias c="clear"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias library="cd $HOME/Library"
-alias sites="cd $HOME/Sites"
 
 # Laravel
 alias art="php artisan"
@@ -31,6 +29,7 @@ alias docker-composer="docker-compose"
 
 # Git
 alias gst="git status"
+alias gf="git fetch"
 alias gb="git branch"
 alias gc="git checkout"
 alias gl="git log --oneline --decorate --color"
