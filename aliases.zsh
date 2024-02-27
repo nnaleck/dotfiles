@@ -9,15 +9,16 @@ alias c="clear"
 alias dotfiles="cd $DOTFILES"
 
 # Laravel
-alias art="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
-alias seed="php artisan db:seed"
+alias art="herd php artisan"
+alias fresh="herd hp artisan migrate:fresh --seed"
+alias seed="herd php artisan db:seed"
 alias pest="./vendor/bin/pest"
 alias pint="./vendor/bin/pint"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
-alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
+alias composer="herd composer"
+alias php="herd php"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
